@@ -2,6 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.Random;
 
 public class MainFrame extends JFrame{
     private JMenuBar  jmb = new JMenuBar();
@@ -10,6 +11,13 @@ public class MainFrame extends JFrame{
     private JMenu jme3 = new JMenu(" I've got you in my sights.");
     private JMenuItem jmiFE = new JMenuItem("EXIT");
     private JMenuItem jmiFL = new JMenuItem("絕不會中獎的樂透");
+    private JPanel pan2 = new JPanel(new GridLayout(1,6,3,3));
+    private Container cp;
+    private int data[]= new  int[6];
+    private Random rnd = new Random(System.currentTimeMillis());
+
+
+    //--------------------------------------------------------//
     private JMenuItem jtStyle = new JMenuItem("Font");
     private JDesktopPane jdp = new JDesktopPane();
     private JInternalFrame jif = new JInternalFrame();
@@ -58,6 +66,18 @@ public class MainFrame extends JFrame{
                 jif.setVisible(true);
             }
         });
+        jmiFL.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                pan2.removeAll();
+                Loto();
+            }
+        });
+
+
+
+
+
         jtStyle.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -95,6 +115,19 @@ public class MainFrame extends JFrame{
         pan1.add(jt1);
         pan1.add(jbstyle);
         pan1.add(jt2);
+
+
+    }
+    public void Loto(){
+        int n;
+        boolean o = false;
+        for(int i =0;i<6;i++){
+        data[i] = rnd.nextInt(42)+1;
+       while (i<6&&o){
+           
+       }
+        }
+
 
 
     }
