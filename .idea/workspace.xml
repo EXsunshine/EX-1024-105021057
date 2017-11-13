@@ -6,7 +6,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled104/MainFrame$2.class" afterPath="$PROJECT_DIR$/out/production/untitled104/MainFrame$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled104/MainFrame$3.class" afterPath="$PROJECT_DIR$/out/production/untitled104/MainFrame$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled104/MainFrame.class" afterPath="$PROJECT_DIR$/out/production/untitled104/MainFrame.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -186,12 +185,20 @@
       <workItem from="1510466246793" duration="568000" />
       <workItem from="1510466876312" duration="49000" />
       <workItem from="1510578047707" duration="22000" />
-      <workItem from="1510580453203" duration="1411000" />
+      <workItem from="1510580453203" duration="1418000" />
     </task>
+    <task id="LOCAL-00001" summary="123">
+      <created>1510583829852</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1510583829852</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4983000" />
+    <option name="totallyTimeSpent" value="4990000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -231,6 +238,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="123" />
+    <option name="LAST_COMMIT_MESSAGE" value="123" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
